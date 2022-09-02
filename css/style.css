@@ -96,3 +96,16 @@
       }
     
 }
+.container .right-circles{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    position: absolute;
+    left: 0px;
+    top: 140px;
+}
+.container .right-circles .circle{
+    width: fit-content;
+    
+}
