@@ -158,14 +158,21 @@
     gap: 24px;
     margin-block-start: 120px;
     justify-content: center;
+    
 }
-.container .roadmap div{
+.container .roadmap .group{
     background: #FFFFFF;
     box-shadow: 3px 3px 15px rgba(14, 29, 39, 0.2);
     border-radius: 6px;
+    position: relative;
 }
-.container .roadmap img{
-    width: fit-content;
+.container .roadmap .head{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+    color: var(--main-color);
+    margin-inline-start: 10px;
+    margin-block: 6px 8px;
 }
 .container .roadmap p{
     font-style: normal;
@@ -174,6 +181,24 @@
     line-height: 24px;
     color: rgba(14, 29, 39, 0.6);
     max-width: 336px;
+    max-height: 96px;
+    margin-block-start: 0px;
+    margin-inline-start: 10px;
 
-
+}
+.container .roadmap a{
+    text-decoration: none;
+    display:block;
+    background: linear-gradient(180deg, #083863 0%, #0E1D27 100%);
+    box-shadow: 3px 3px 10px rgba(14, 29, 39, 0.2);
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 36px ;
+    font-size: 14px;
+    margin-inline-start: 10px;
+    width: fit-content; 
+    padding-inline: 14px;
+    position: absolute;
+    bottom: 16px;
 }
