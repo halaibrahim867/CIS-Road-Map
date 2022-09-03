@@ -233,6 +233,8 @@
     gap: 20px;
     color: #FFFFFF;
 }
+
+
 .container .footer h3{
     font-weight: 700;
     font-size: 24px;
@@ -291,4 +293,17 @@
 }
 .container .footer  .partener{
     text-align: center;
+}
+@media (max-width:772px){
+    .container .footer{
+        display: block;
+        text-align: center;
+        margin: auto;
+        padding-block-start: 20px;
+        
+    }
+    .container .footer .location,
+    .container .footer form{
+        margin: auto;
+    }
 }
