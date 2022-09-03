@@ -99,11 +99,11 @@
 .container .right-circles{
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 2641px;
     justify-content: space-between;
     position: absolute;
     left: -5px;
-    top: 140px;
+    top: 150px;
 }
 .container .right-circles .circle{
     width: fit-content;
@@ -119,3 +119,16 @@
     margin-inline-end: -94px;
 }
 
+.container .left-circles{
+    display: flex;
+    flex-direction: column;
+    height: 2151px;
+    justify-content:space-between;
+    position: absolute;
+    right: 0px;
+    top: 44rem;
+}
+.container .left-circles .circle{
+    width: fit-content;
+    
+}
