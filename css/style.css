@@ -1,5 +1,5 @@
 :root{
-    --main-color: #0B171F;
+    --main-color: #0B171F; 
     --second-color: #1AE5BE;
 }
 .container {
@@ -306,4 +306,26 @@
     .container .footer form{
         margin: auto;
     }
+}
+.container .copyright{
+    display: flex;
+    align-items: center;
+    background-color:var(--main-color) ;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    justify-content: space-evenly;
+
+}
+.container .copyright .links a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 22px;
+    margin-inline: 10px;
+}
+.container .copyright .links a:hover{
+    color: var(--second-color);
+   
+
 }
