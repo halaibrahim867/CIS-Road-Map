@@ -118,7 +118,18 @@
     margin-inline-start: 100px;
     margin-inline-end: -94px;
 }
-
+@media (max-width:1200px){
+    .container .landing-image .landing-logo{
+        display: none;
+       
+    }
+    .container .landing-image .cover img{
+        max-width: 100vw;
+        width: auto;
+        margin: auto;
+    }
+    
+}
 .container .left-circles{
     display: flex;
     flex-direction: column;
@@ -126,9 +137,16 @@
     justify-content:space-between;
     position: absolute;
     right: 0px;
-    top: 44rem;
+    top: 60rem;
 }
 .container .left-circles .circle{
     width: fit-content;
+    
+}
+@media (max-width:1200px) {
+    .container .left-circles ,
+    .container .right-circles{
+        display: none;
+    }
     
 }
