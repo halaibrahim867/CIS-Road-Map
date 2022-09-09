@@ -17,26 +17,30 @@
 
 <body>
   <div class="container">
-    <div class="nav-bar">
-      <div class="logo-nav-bar">
-        <a href="#"><img src="images/cis_logo_navbar.png" alt="cis logo in nav bar" /></a>
-      </div>
-      <div class="links-nav-bar">
-        <i class="fa-sharp fa-solid fa-bars-staggered"></i>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Events</a></li>
-          <li><a href="#">Blogs</a></li>
-          <li><a href="#">Committees</a></li>
-          <li><a href="#">Groups</a></li>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </div>
-      <div class="news-letter">
-        <a href="#">Newsletter</a>
-      </div>
+    <div class="nav-bar-container">
+      <a href="#" class="small-screen"><img src="images/cis_logo_navbar.png" alt="cis_logo_navbar"></a>
+       <div class="lst-icon" onclick="show() "><i class="fa-sharp fa-solid fa-bars-staggered"></i></div> 
+
+      <div class="nav-bar" id="nav-bar">
+          <a href="#"><img src="images/cis_logo_navbar.png" alt="cis logo in nav bar" /></a>
+
+          <div class="links-nav-bar" >
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Committees</a></li>
+                <li><a href="#">Groups</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            <div class="news-letter">
+              <a href="#">Newsletter</a>
+            </div>
+          </div>
+          
+      </div>  
     </div>
 
 
@@ -52,8 +56,8 @@
     </div>
 
 
-    <div class="roadmap">
-      <div class="contain">
+    <div class="roadmap-container">
+      <div class="roadmap">
         <div class="group">
           <img src="images/UI_UX.png" alt="UI-UX background image" />
           <h2 class="head">UI/UX Group</h2>
@@ -267,6 +271,20 @@
     </div>
 
   </div>
+
+  <script>
+    function show(){
+      var letshow
+     // if(document.getElementsByClassName("lst-icon").onclick==true){
+        letshow= document.getElementById("nav-bar").style.left="0%";
+      //}
+      // else{
+      //   letshow= document.getElementById("nav-bar").style.left="-80%";
+      // }
+      return letshow;
+    }
+  </script>
 </body>
+
 
 </html>
